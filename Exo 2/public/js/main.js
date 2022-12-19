@@ -1,12 +1,14 @@
-let prompt_prenom = " Adil ";
+let prompt_prenom = " Quel est votre prenom ? ";
 prompt(prompt_prenom);
 
 
 
-let prompt_age = 22;
+let prompt_age = "Quel est votre age ? ";
 prompt(prompt_age);
 
 
 
-let presentation = " Je m'appelle Adil et j'ai 22 ans";
-alert(presentation);
+let presentation
+presentation=prompt_prenom+prompt_age
+
+alert(`presentation = ${prompt_prenom} + ${prompt_age} = ${presentation}`)
